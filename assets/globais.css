@@ -1,4 +1,6 @@
-.pix10{background:#1b1b1b;}
+.pix10{background:#1b1b1b !important;
+       border:2px solid gray;
+}
 /* FREE DELIVERY BAR */
 .free-delivery-bar__toolbar.body2 {
     display: none;
