@@ -1,4 +1,4 @@
-    // script.js
+// script.js
     document.addEventListener('DOMContentLoaded', function() {
         const newsletterPopup = document.getElementById('newsletterPopup');
         const closeButton = document.querySelector('.close-button');

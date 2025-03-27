@@ -1,0 +1,13 @@
+/* Adicione uma transição suave para o popup */
+#newsletterPopup {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+#newsletterPopup.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
