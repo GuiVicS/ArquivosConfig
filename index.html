@@ -1,0 +1,11 @@
+<meu-header></meu-header>
+<script>class MeuHeader extends HTMLElement {
+  connectedCallback() {
+    fetch("https://guivics.github.io/ArquivosConfig/assets/header.html")
+      .then(res => res.text())
+      .then(html => this.innerHTML = html);
+  }
+}
+
+customElements.define("meu-header", MeuHeader);
+</script>
