@@ -1,0 +1,148 @@
+
+.free-delivery-bar__toolbar.body2 {
+    display: none;
+  }
+  .frete-gratis{
+      font-size:12px;
+      background:#399568;
+      color:white;
+      padding:2px 8px;
+      z-index:999;
+      position:absolute;
+      bottom:5px;
+      left:5px;
+      border-radius:8px;
+  }
+  /* MODIFICAÇÃO DOS BOTÕES */
+  .product-form__submit,
+  #checkoutympButton {
+    background: #3fc583;
+    font-weight: bold;
+  }
+  #checkoutympButton {
+    width: 100%;
+    max-width: 400px;
+  }
+  .product-form__submit,
+  #checkoutympButton::hover {
+    background: #65d19c !important;
+  }
+  #seta-yampi {
+    margin-left: 10px;
+  }
+  
+  /*DIMINUIR TAMANHO DA FONTE DO BOTÃO DE ADICIONAR DA COLEÇÃO*/
+  @media (max-width: 600px) {
+    .quick-add__submit {
+      font-size: 13px !important;
+      letter-spacing: -0.5px;
+    }
+  }
+  
+  /* TABELA DE MEDIDAS */
+  
+  #tabela-ancora,#tabela-ancora2 {
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    background: #f2f2f2;
+    padding:10px;
+    text-decoration: none;
+    line-height: 20px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  
+  .imagem-desktop {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+          height: auto;
+      }
+  
+      .imagem-mobile {
+          display: none;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+          height: auto;
+      }
+  
+      @media (max-width: 768px) {
+          .imagem-desktop {
+              display: none;
+          }
+  
+          .imagem-mobile {
+              display: block;
+          }
+      }
+  
+  /* TABELA DE PARCELAMENTO MODELO 2 */
+  
+  #cor-cinzaUnique {
+      color: #696969;
+  }
+  
+  .parcelas10Unique {
+      margin-right: 5px;
+  }
+  
+  .boxParcelasUnique .rowUnique {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      width: 100% !important;
+      font-size: 0.9em;
+  }
+  
+  .boxParcelasUnique img.cartoesUnique {
+      height: 22px;
+      padding: 0 4px;
+      margin: 3px 0;
+  }
+  
+  .boxParcelasUnique img {
+      height: 12px;
+  }
+  
+  #jurosUnique { 
+      margin-left: -5px 0;
+  }
+  
+  #tabelaUnique {
+      display: flex;
+      width: 100%;
+  }
+  
+  .divideUnique {
+      width: 60%;
+      background: white;
+      padding: 15px;
+      display: inline-block;
+  }
+  
+  .divide2Unique {
+      width: 40%;
+      background: white;
+      padding: 15px;
+      display: inline-block;
+  }
+  
+  @media screen and (max-width: 996px) {
+      .boxParcelasUnique .hideOnMobileUnique {
+          display: flex;
+      }
+  }
+  
+  @media (min-width: 1000px) {
+      #tabelaUnique {
+          font-size: 0.92em !important;
+      }
+  }
+  
